@@ -35,9 +35,6 @@ public class CustomerController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (!req.getContentType().toLowerCase().startsWith("application/json") || req.getContentType() == null) {
-            resp.sendError(HttpServletResponse.SC_UNSUPPORTED_MEDIA_TYPE);
-        }
 
         System.out.println("Inside get method");
 
@@ -114,13 +111,13 @@ public class CustomerController extends HttpServlet {
 
             CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);
             System.out.println(customerDTO);
-            boolean isSave = customerBO.saveCustomer(customerDTO);
+            boolean isUpdate = customerBO.updateCustomer(customerDTO);
 
-            if (isSave) {
-                writer.write("Customer saved successfully");
+            if (isUpdate) {
+                writer.write("Customer updated successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
-                writer.write("Customer not saved");
+                writer.write("Customer not updated");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
@@ -131,8 +128,23 @@ public class CustomerController extends HttpServlet {
 
     @Override
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (!req.getContentType().toLowerCase().startsWith("application/json") || req.getContentType() == null) {
-            resp.sendError(HttpServletResponse.SC_UNSUPPORTED_MEDIA_TYPE);
+
+        try (var writer = resp.getWriter()){
+            System.out.println("Inside Delete method");
+
+            String id = req.getParameter("id");
+            System.out.println(id);
+            boolean isDelete = customerBO.deleteCustomer(id);
+
+            if (isDelete) {
+                writer.write("Customer deleted successfully");
+                resp.setStatus(HttpServletResponse.SC_CREATED);
+            } else {
+                writer.write("Customer not deleted");
+                resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            }
+        } catch (JsonException | SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
     }
 }
