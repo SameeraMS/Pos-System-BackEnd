@@ -45,4 +45,15 @@ public class ItemBOImpl implements ItemBO {
     public String nextItemId() throws SQLException, ClassNotFoundException {
         return itemDAO.nextId();
     }
+
+    @Override
+    public ArrayList<ItemDTO> searchByName(String newItemCode) throws SQLException, ClassNotFoundException {
+        ArrayList<Item> allitems = itemDAO.searchByName(newItemCode);
+        ArrayList<ItemDTO> itemDTOS = new ArrayList<>();
+
+        for (Item item : allitems) {
+            itemDTOS.add(new ItemDTO(item.getId(), item.getDescription(), item.getUnitPrice(), item.getQtyOnHand()));
+        }
+        return itemDTOS;
+    }
 }

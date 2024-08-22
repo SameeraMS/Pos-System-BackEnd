@@ -71,6 +71,7 @@ public class CustomerDAOImpl implements CustomerDAO {
         return entity;
     }
 
+    @Override
     public ArrayList<Customer> searchByContact(String newValue) throws SQLException, ClassNotFoundException {
 
         ResultSet rst = SQLUtil.execute("SELECT * FROM customer WHERE contact like ?",newValue+"%");
