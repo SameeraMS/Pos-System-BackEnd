@@ -58,7 +58,7 @@ public class CustomerController extends HttpServlet {
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
-                writer.write(jsonb.toJson(customerBO.getAllCustomers()));
+                writer.write(jsonb.toJson(customerBO.searchByContact(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
 
             }

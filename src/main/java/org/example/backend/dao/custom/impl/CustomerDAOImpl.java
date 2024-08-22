@@ -70,4 +70,16 @@ public class CustomerDAOImpl implements CustomerDAO {
 
         return entity;
     }
+
+    public ArrayList<Customer> searchByContact(String newValue) throws SQLException, ClassNotFoundException {
+
+        ResultSet rst = SQLUtil.execute("SELECT * FROM customer WHERE contact like ?",newValue+"%");
+
+        ArrayList<Customer> entity = new ArrayList<>();
+
+        while (rst.next()) {
+            entity.add(new Customer(rst.getString("id"), rst.getString("name"), rst.getString("address"), rst.getString("contact")));
+        }
+        return entity;
+    }
 }
