@@ -42,6 +42,7 @@ public class ItemController extends HttpServlet {
         String search = req.getParameter("search");
         String nextid = req.getParameter("nextid");
 
+        System.out.println(search);
 
         if (all != null) {
             try (var writer = resp.getWriter()) {
@@ -57,6 +58,8 @@ public class ItemController extends HttpServlet {
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
+                System.out.println("in search");
+                System.out.println(itemBO.searchByName(search));
                 writer.write(jsonb.toJson(itemBO.searchByName(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
 

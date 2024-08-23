@@ -71,7 +71,7 @@ public class ItemDAOImpl implements ItemDAO {
     @Override
     public ArrayList<Item> searchByName(String newItemCode) throws SQLException, ClassNotFoundException {
 
-        ResultSet rst = SQLUtil.execute("SELECT * FROM item WHERE description like ",newItemCode+"%");
+        ResultSet rst = SQLUtil.execute("SELECT * FROM item WHERE description like ?",newItemCode+"%");
 
         ArrayList<Item> item = new ArrayList<>();
 
