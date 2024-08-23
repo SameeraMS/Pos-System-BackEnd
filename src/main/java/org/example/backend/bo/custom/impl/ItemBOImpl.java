@@ -47,6 +47,13 @@ public class ItemBOImpl implements ItemBO {
     }
 
     @Override
+    public ItemDTO search(String newItemCode) throws SQLException, ClassNotFoundException {
+
+        Item item = itemDAO.search(newItemCode);
+        return new ItemDTO(item.getId(), item.getDescription(), item.getUnitPrice(), item.getQtyOnHand());
+    }
+
+    @Override
     public ArrayList<ItemDTO> searchByName(String newItemCode) throws SQLException, ClassNotFoundException {
         ArrayList<Item> allitems = itemDAO.searchByName(newItemCode);
         ArrayList<ItemDTO> itemDTOS = new ArrayList<>();

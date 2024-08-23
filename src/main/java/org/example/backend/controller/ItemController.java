@@ -52,7 +52,7 @@ public class ItemController extends HttpServlet {
             }
         } else if (id != null) {
             try (var writer = resp.getWriter()) {
-                writer.write(jsonb.toJson(itemBO.existItem(id)));
+                writer.write(jsonb.toJson(itemBO.search(id)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
                 throw new RuntimeException(e);
             }

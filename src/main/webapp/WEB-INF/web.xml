@@ -20,10 +20,11 @@
         <param-name>dbPassword</param-name>
         <param-value>Ijse@123</param-value>
     </context-param>
-    <context-param>
+
+    <!--<context-param>
         <param-name>origin</param-name>
         <param-value>http://localhost:63342</param-value>
-    </context-param>
+    </context-param>-->
 
     <resource-ref>
         <description>DB Connection</description>
