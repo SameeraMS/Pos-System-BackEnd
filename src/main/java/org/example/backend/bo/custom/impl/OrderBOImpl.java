@@ -55,4 +55,14 @@ public class OrderBOImpl implements OrderBO {
         Order search = orderDAO.search(orderId);
         return new OrderDTO(search.getId(), search.getDate(), search.getDiscount_value(), search.getSub_total(), search.getCustomer_id());
     }
+
+    @Override
+    public ArrayList<OrderDTO> searchByOrderId(String id) throws SQLException, ClassNotFoundException {
+        ArrayList<Order> search = orderDAO.searchByOrderId(id);
+        ArrayList<OrderDTO> orderDTOS = new ArrayList<>();
+        for (Order order : search) {
+            orderDTOS.add(new OrderDTO(order.getId(), order.getDate(), order.getDiscount_value(), order.getSub_total(), order.getCustomer_id()));
+        }
+        return orderDTOS;
+    }
 }

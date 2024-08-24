@@ -63,4 +63,15 @@ public class OrderDAOImpl implements OrderDAO {
         return rst.next();
 
     }
+
+    @Override
+    public ArrayList<Order> searchByOrderId(String id) throws SQLException, ClassNotFoundException {
+        ResultSet rst = SQLUtil.execute("SELECT * FROM orders WHERE id like ?",id+"%");
+        ArrayList<Order> orders = new ArrayList<>();
+
+        while (rst.next()) {
+            orders.add(new Order(rst.getString("id"), rst.getString("date"), rst.getDouble("discount_value"), rst.getDouble("sub_total"), rst.getString("customer_iD")));
+        }
+        return orders;
+    }
 }

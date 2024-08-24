@@ -36,13 +36,12 @@ public class CustomerController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside get method");
+        System.out.println("Inside customer get method");
 
         String id = req.getParameter("id");
         String all = req.getParameter("all");
         String search = req.getParameter("search");
         String nextid = req.getParameter("nextid");
-
 
         if (all != null) {
             try (var writer = resp.getWriter()) {
@@ -70,7 +69,6 @@ public class CustomerController extends HttpServlet {
             }
         }
 
-
     }
 
     @Override
@@ -81,7 +79,7 @@ public class CustomerController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside post method");
+            System.out.println("Inside customer post method");
 
             CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);
             System.out.println(customerDTO);
@@ -107,7 +105,7 @@ public class CustomerController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside put method");
+            System.out.println("Inside customer put method");
 
             CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);
             System.out.println(customerDTO);
@@ -130,7 +128,7 @@ public class CustomerController extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         try (var writer = resp.getWriter()){
-            System.out.println("Inside Delete method");
+            System.out.println("Inside customer Delete method");
 
             String id = req.getParameter("id");
             System.out.println(id);

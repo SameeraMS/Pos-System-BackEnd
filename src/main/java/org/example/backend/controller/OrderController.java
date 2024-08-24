@@ -35,14 +35,12 @@ public class OrderController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside get method");
+        System.out.println("Inside order get method");
 
         String id = req.getParameter("id");
         String all = req.getParameter("all");
         String search = req.getParameter("search");
         String nextid = req.getParameter("nextid");
-
-        System.out.println(search);
 
         if (all != null) {
             try (var writer = resp.getWriter()) {
@@ -58,10 +56,9 @@ public class OrderController extends HttpServlet {
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
-                System.out.println("in search");
-                writer.write(jsonb.toJson(orderBO.search(search)));
+                writer.write(jsonb.toJson(orderBO.searchByOrderId(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
-
+                throw new RuntimeException(e);
             }
         } else if (nextid != null) {
             try (var writer = resp.getWriter()) {
@@ -82,7 +79,7 @@ public class OrderController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside post method");
+            System.out.println("Inside order post method");
 
             OrderDTO orderDTO = jsonb.fromJson(req.getReader(), OrderDTO.class);
             System.out.println(orderDTO);
@@ -108,7 +105,7 @@ public class OrderController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside put method");
+            System.out.println("Inside order put method");
 
             OrderDTO orderDTO = jsonb.fromJson(req.getReader(), OrderDTO.class);
             System.out.println(orderDTO);
@@ -131,7 +128,7 @@ public class OrderController extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         try (var writer = resp.getWriter()){
-            System.out.println("Inside Delete method");
+            System.out.println("Inside order Delete method");
 
             String id = req.getParameter("id");
             System.out.println(id);
