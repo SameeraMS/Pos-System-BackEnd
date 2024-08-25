@@ -36,7 +36,7 @@ public class CustomerController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside customer get method");
+        logger.info("Inside customer get method");
 
         String id = req.getParameter("id");
         String all = req.getParameter("all");
@@ -47,24 +47,28 @@ public class CustomerController extends HttpServlet {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(customerBO.getAllCustomers()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (id != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(customerBO.search(id)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(customerBO.searchByContact(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
-
+                logger.error("Faild with: ",e.getMessage());
+                throw new RuntimeException(e);
             }
         } else if (nextid != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(customerBO.nextCustomerId()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         }
@@ -79,20 +83,22 @@ public class CustomerController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside customer post method");
+            logger.info("Inside customer post method");
 
             CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);
-            System.out.println(customerDTO);
             boolean isSave = customerBO.saveCustomer(customerDTO);
 
             if (isSave) {
                 writer.write("Customer saved successfully");
+                logger.info("Customer saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Customer not saved");
+                logger.error("Customer not saved");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }
@@ -105,7 +111,7 @@ public class CustomerController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside customer put method");
+            logger.info("Inside customer put method");
 
             CustomerDTO customerDTO = jsonb.fromJson(req.getReader(), CustomerDTO.class);
             System.out.println(customerDTO);
@@ -113,12 +119,15 @@ public class CustomerController extends HttpServlet {
 
             if (isUpdate) {
                 writer.write("Customer updated successfully");
+                logger.info("Customer updated successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Customer not updated");
+                logger.error("Customer not updated");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
 
@@ -128,20 +137,23 @@ public class CustomerController extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         try (var writer = resp.getWriter()){
-            System.out.println("Inside customer Delete method");
+
+            logger.info("Inside customer Delete method");
 
             String id = req.getParameter("id");
-            System.out.println(id);
             boolean isDelete = customerBO.deleteCustomer(id);
 
             if (isDelete) {
                 writer.write("Customer deleted successfully");
+                logger.info("Customer deleted successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Customer not deleted");
+                logger.error("Customer not deleted");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }

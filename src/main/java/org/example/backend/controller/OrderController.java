@@ -35,7 +35,7 @@ public class OrderController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside order get method");
+        logger.info("Inside order get method");
 
         String id = req.getParameter("id");
         String all = req.getParameter("all");
@@ -46,24 +46,28 @@ public class OrderController extends HttpServlet {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(orderBO.getAllOrders()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (id != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(orderBO.search(id)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(orderBO.searchByOrderId(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (nextid != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(orderBO.nextOrderId()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         }
@@ -79,20 +83,22 @@ public class OrderController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside order post method");
+            logger.info("Inside order post method");
 
             OrderDTO orderDTO = jsonb.fromJson(req.getReader(), OrderDTO.class);
-            System.out.println(orderDTO);
             boolean isSave = orderBO.saveOrder(orderDTO);
 
             if (isSave) {
                 writer.write("Order saved successfully");
+                logger.info("Order saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Order not saved");
+                logger.error("Order not saved");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }
@@ -105,20 +111,22 @@ public class OrderController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside order put method");
+            logger.info("Inside order put method");
 
             OrderDTO orderDTO = jsonb.fromJson(req.getReader(), OrderDTO.class);
-            System.out.println(orderDTO);
             boolean isUpdate = orderBO.updateOrder(orderDTO);
 
             if (isUpdate) {
                 writer.write("Order updated successfully");
+                logger.info("Order updated successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Order not updated");
+                logger.error("Order not updated");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
 
@@ -128,20 +136,23 @@ public class OrderController extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         try (var writer = resp.getWriter()){
-            System.out.println("Inside order Delete method");
+
+            logger.info("Inside order Delete method");
 
             String id = req.getParameter("id");
-            System.out.println(id);
             boolean isDelete = orderBO.deleteOrder(id);
 
             if (isDelete) {
                 writer.write("Order deleted successfully");
+                logger.info("Order deleted successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Order not deleted");
+                logger.error("Order not deleted");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }

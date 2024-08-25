@@ -37,7 +37,7 @@ public class OrderDetailsController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside order detail get method");
+        logger.info("Inside order detail get method");
 
         String id = req.getParameter("id");
 
@@ -45,6 +45,7 @@ public class OrderDetailsController extends HttpServlet {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(orderDetailsBO.searchByOrderId(id)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         }
@@ -58,7 +59,7 @@ public class OrderDetailsController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside order detail post method");
+            logger.info("Inside order detail post method");
 
             OrderDetailDTO orderDetailDTO = jsonb.fromJson(req.getReader(), OrderDetailDTO.class);
             boolean isSave = orderDetailsBO.save(orderDetailDTO);
@@ -66,12 +67,15 @@ public class OrderDetailsController extends HttpServlet {
 
             if (isSave && isUpdate) {
                 writer.write("Order Details saved successfully");
+                logger.info("Order Details saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Order Details not saved");
+                logger.error("Order Details not saved");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }

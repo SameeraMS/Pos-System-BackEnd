@@ -13,7 +13,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    static Logger logger = LoggerFactory.getLogger(CustomerController.class);
+    static Logger logger = LoggerFactory.getLogger(DBConnection.class);
     Connection connection;
     private static DBConnection dbConnection;
 
@@ -26,7 +26,7 @@ public class DBConnection {
 
             this.connection = pool.getConnection();
         } catch (Exception e) {
-            logger.error("faild with: ",e.getMessage());
+            logger.error(e.getMessage());
             e.printStackTrace();
         }
     }

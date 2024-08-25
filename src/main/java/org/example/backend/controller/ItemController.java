@@ -35,7 +35,7 @@ public class ItemController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        System.out.println("Inside item get method");
+        logger.info("Inside item get method");
 
         String id = req.getParameter("id");
         String all = req.getParameter("all");
@@ -46,12 +46,14 @@ public class ItemController extends HttpServlet {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(itemBO.getAllItem()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (id != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(itemBO.search(id)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         } else if (search != null) {
@@ -60,12 +62,14 @@ public class ItemController extends HttpServlet {
                 System.out.println(itemBO.searchByName(search));
                 writer.write(jsonb.toJson(itemBO.searchByName(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
-
+                logger.error("Faild with: ",e.getMessage());
+                throw new RuntimeException(e);
             }
         } else if (nextid != null) {
             try (var writer = resp.getWriter()) {
                 writer.write(jsonb.toJson(itemBO.nextItemId()));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
+                logger.error("Faild with: ",e.getMessage());
                 throw new RuntimeException(e);
             }
         }
@@ -81,20 +85,22 @@ public class ItemController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside item post method");
+            logger.info("Inside item post method");
 
             ItemDTO itemDTO = jsonb.fromJson(req.getReader(), ItemDTO.class);
-            System.out.println(itemDTO);
             boolean isSave = itemBO.saveItem(itemDTO);
 
             if (isSave) {
                 writer.write("Item saved successfully");
+                logger.info("Item saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Item not saved");
+                logger.info("Item not saved");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }
@@ -107,20 +113,22 @@ public class ItemController extends HttpServlet {
 
         try (var writer = resp.getWriter()){
 
-            System.out.println("Inside item put method");
+            logger.info("Inside item put method");
 
             ItemDTO itemDTO = jsonb.fromJson(req.getReader(), ItemDTO.class);
-            System.out.println(itemDTO);
             boolean isUpdate = itemBO.updateItem(itemDTO);
 
             if (isUpdate) {
                 writer.write("Item updated successfully");
+                logger.info("Item updated successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Item not updated");
+                logger.info("Item not updated");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
 
@@ -130,20 +138,23 @@ public class ItemController extends HttpServlet {
     protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         try (var writer = resp.getWriter()){
-            System.out.println("Inside item Delete method");
+
+            logger.info("Inside item delete method");
 
             String id = req.getParameter("id");
-            System.out.println(id);
             boolean isDelete = itemBO.deleteItem(id);
 
             if (isDelete) {
                 writer.write("Item deleted successfully");
+                logger.info("Item deleted successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
                 writer.write("Item not deleted");
+                logger.info("Item not deleted");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
+            logger.error("Faild with: ",e.getMessage());
             throw new RuntimeException(e);
         }
     }
