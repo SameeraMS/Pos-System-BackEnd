@@ -10,4 +10,5 @@ import java.util.ArrayList;
 
 public interface ItemDAO extends CrudDAO<Item> {
     ArrayList<Item> searchByName(String newItemCode) throws SQLException, ClassNotFoundException;
+    boolean updateQty(String id, String qty) throws SQLException, ClassNotFoundException;
 }

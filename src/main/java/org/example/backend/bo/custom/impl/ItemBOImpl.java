@@ -63,4 +63,9 @@ public class ItemBOImpl implements ItemBO {
         }
         return itemDTOS;
     }
+
+    @Override
+    public boolean updateQty(String id, String qty) throws SQLException, ClassNotFoundException {
+        return itemDAO.updateQty(id, qty);
+    }
 }

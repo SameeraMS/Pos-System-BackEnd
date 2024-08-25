@@ -10,6 +10,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.example.backend.bo.BOFactory;
+import org.example.backend.bo.custom.ItemBO;
 import org.example.backend.bo.custom.OrderDetailsBO;
 import org.example.backend.dto.OrderDetailDTO;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public class OrderDetailsController extends HttpServlet {
     Jsonb jsonb = JsonbBuilder.create(config);
     static Logger logger = LoggerFactory.getLogger(OrderDetailsController.class);
     OrderDetailsBO orderDetailsBO = (OrderDetailsBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.ORDER_DETAILS);
+    ItemBO itemBO = (ItemBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.ITEM);
 
     @Override
     public void init() throws ServletException {
@@ -60,8 +62,9 @@ public class OrderDetailsController extends HttpServlet {
 
             OrderDetailDTO orderDetailDTO = jsonb.fromJson(req.getReader(), OrderDetailDTO.class);
             boolean isSave = orderDetailsBO.save(orderDetailDTO);
+            boolean isUpdate = itemBO.updateQty(orderDetailDTO.getItem_id(), String.valueOf(orderDetailDTO.getQty()));
 
-            if (isSave) {
+            if (isSave && isUpdate) {
                 writer.write("Order Details saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {

@@ -86,10 +86,10 @@ public class OrderController extends HttpServlet {
             boolean isSave = orderBO.saveOrder(orderDTO);
 
             if (isSave) {
-                writer.write("Item saved successfully");
+                writer.write("Order saved successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
-                writer.write("Item not saved");
+                writer.write("Order not saved");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
@@ -112,10 +112,10 @@ public class OrderController extends HttpServlet {
             boolean isUpdate = orderBO.updateOrder(orderDTO);
 
             if (isUpdate) {
-                writer.write("Item updated successfully");
+                writer.write("Order updated successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
-                writer.write("Item not updated");
+                writer.write("Order not updated");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
@@ -135,10 +135,10 @@ public class OrderController extends HttpServlet {
             boolean isDelete = orderBO.deleteOrder(id);
 
             if (isDelete) {
-                writer.write("Item deleted successfully");
+                writer.write("Order deleted successfully");
                 resp.setStatus(HttpServletResponse.SC_CREATED);
             } else {
-                writer.write("Item not deleted");
+                writer.write("Order not deleted");
                 resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
             }
         } catch (JsonException | SQLException | ClassNotFoundException e) {
