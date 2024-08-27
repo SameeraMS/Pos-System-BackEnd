@@ -58,8 +58,6 @@ public class ItemController extends HttpServlet {
             }
         } else if (search != null) {
             try (var writer = resp.getWriter()) {
-                System.out.println("in search");
-                System.out.println(itemBO.searchByName(search));
                 writer.write(jsonb.toJson(itemBO.searchByName(search)));
             } catch (JsonException | SQLException | ClassNotFoundException e) {
                 logger.error("Faild with: ",e.getMessage());
