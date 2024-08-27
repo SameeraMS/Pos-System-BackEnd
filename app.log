@@ -1,0 +1,514 @@
+11:54:07.881 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+11:54:18.377 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+11:54:27.105 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:07:24.396 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:07:24.440 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:07:24.440 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:07:24.440 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:07:25.374 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:07:25.377 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:33.408 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:08:33.408 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:08:33.408 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:08:33.408 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:34.395 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:08:34.400 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:45.165 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:45.178 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer post method
+12:08:45.227 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Customer saved successfully
+12:08:46.169 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:46.169 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:47.174 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:08:59.014 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:08:59.017 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item post method
+12:08:59.032 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Item saved successfully
+12:09:00.015 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:00.016 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:01.020 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:04.126 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:04.544 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:06.564 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:07.537 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:08.082 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:08.343 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:13.037 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:14.131 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:16.168 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:16.399 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:17.776 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:23.273 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:25.913 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:30.248 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:41.248 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:09:41.248 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:09:41.248 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:41.277 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:09:41.284 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:09:42.270 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:09:42.270 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:09:42.281 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:09:42.282 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:09:50.201 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:09:50.201 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:09:50.201 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:50.201 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:09:51.206 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:09:51.206 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:11:42.773 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:11:42.773 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:11:42.773 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:11:42.773 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:11:43.744 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:11:43.744 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:11:47.514 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:11:49.949 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:11:51.399 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:11:58.150 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:11:58.150 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:11:58.151 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:11:58.152 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:11:58.159 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:11:59.153 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:11:59.159 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:12:04.914 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:12:04.914 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:12:04.914 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:12:04.914 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:12:05.918 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:12:05.918 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:14:28.920 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:14:28.920 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:14:28.920 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:14:28.920 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:14:30.106 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:14:30.106 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:14:36.320 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:14:37.852 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:14:59.784 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:14:59.784 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:14:59.784 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:14:59.786 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:14:59.798 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:15:00.788 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:15:00.795 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:15:06.252 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:06.258 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:15:06.262 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:07.983 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:07.989 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:15:07.997 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:07.997 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:08.886 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:08.892 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:15:08.897 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:10.235 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:10.241 [http-nio-8082-exec-7] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:15:10.247 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:10.247 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:11.782 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:11.789 [http-nio-8082-exec-6] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:15:11.794 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:14.154 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:14.154 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:14.155 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:15:14.155 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:15:15.157 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:15:15.157 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:17:01.779 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:01.779 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:17:01.779 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:01.779 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:02.769 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:02.771 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:17:04.991 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:17:06.992 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:13.174 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:13.174 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:13.176 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:17:13.198 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:17:14.177 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:14.178 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:17:14.186 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:17:19.677 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:19.681 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:17:19.687 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:21.223 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:21.228 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:17:21.233 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:21.870 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:17:21.875 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:17:21.879 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:17:21.879 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:28:23.860 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:28:23.860 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:28:23.860 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:28:23.860 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:28:24.781 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:28:24.781 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:14.417 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:14.425 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer post method
+12:29:14.463 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Customer saved successfully
+12:29:15.422 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:15.422 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:16.424 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:27.411 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:27.413 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item post method
+12:29:27.428 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Item saved successfully
+12:29:28.412 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:28.412 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:29.413 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:34.309 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:35.113 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:35.412 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:36.769 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:37.796 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:39.048 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:39.720 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:39.868 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:29:50.981 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:51.316 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:52.129 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:52.396 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:52.947 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:53.040 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:53.235 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:53.963 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:54.299 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:29:57.646 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:30:01.299 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:06.097 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:15.132 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:15.132 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:15.137 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:30:15.146 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:30:16.133 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:16.155 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:30:16.155 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:30:16.164 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:30:16.166 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:30:21.789 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:30:23.168 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:30:25.404 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:35.973 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:35.973 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:35.974 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:30:36.037 [http-nio-8082-exec-1] ERROR o.e.b.controller.OrderController -- Faild with: 
+12:30:36.973 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:36.975 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:30:36.979 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:30:41.484 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:30:44.067 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:57.385 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:57.385 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:30:57.387 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:30:57.395 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:30:58.388 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:30:58.390 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:30:58.396 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:31:01.656 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:31:01.665 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:31:01.673 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:01.673 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:01.676 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:08.122 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:31:08.129 [http-nio-8082-exec-6] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:31:08.137 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:09.551 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:31:09.558 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:31:09.563 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:15.219 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:31:15.225 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:31:15.231 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:15.232 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:15.237 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:31:19.284 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:31:19.290 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:31:19.296 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:44.498 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:44.498 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:44.498 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:35:44.498 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:45.321 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:45.321 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:45.321 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:45.324 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:35:46.073 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:35:46.073 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:46.327 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:35:46.327 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:48.668 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:35:50.922 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:58.487 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:58.487 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:35:58.489 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:35:58.495 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:35:59.489 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:35:59.493 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:35:59.498 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:36:04.207 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:36:04.215 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:36:04.221 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:36:11.231 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:36:27.904 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:36:39.036 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:36:39.036 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:36:39.038 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:36:39.043 [http-nio-8082-exec-8] ERROR o.e.b.controller.OrderController -- Faild with: 
+12:36:40.037 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:36:40.038 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:36:40.044 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:36:49.387 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:36:59.037 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:37:09.187 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:37:09.187 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:37:09.190 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:37:09.195 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:37:10.190 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:37:10.192 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:37:10.198 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:37:13.820 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:37:14.896 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:37:18.970 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:37:18.978 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:37:18.983 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:37:31.341 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:37:31.341 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:37:31.343 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:37:31.349 [http-nio-8082-exec-8] ERROR o.e.b.controller.OrderController -- Faild with: 
+12:37:32.345 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:37:32.346 [http-nio-8082-exec-7] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:37:32.352 [http-nio-8082-exec-7] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:38:41.316 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:41.316 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:38:41.316 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:41.316 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:41.372 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:41.372 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:41.372 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:38:41.372 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:42.304 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:38:42.304 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:43.070 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:43.070 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:38:45.187 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:38:47.222 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:53.556 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:53.556 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:53.558 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:38:54.553 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:54.554 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:38:54.563 [http-nio-8082-exec-1] ERROR o.e.b.c.OrderDetailsController -- Faild with: 
+12:38:58.404 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:38:58.408 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:38:58.413 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:38:58.413 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:00.801 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:00.803 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:00.802 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:00.801 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:00.815 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:00.820 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:00.822 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:00.831 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:01.793 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:01.793 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:02.070 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:02.070 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:05.467 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:07.503 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:15.372 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:15.372 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:15.374 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:40:15.380 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:40:16.374 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:16.376 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:40:16.380 [http-nio-8082-exec-9] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:40:43.099 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:43.099 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:43.099 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:43.099 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:43.148 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:43.149 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:43.151 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:43.170 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:44.103 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:44.103 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:45.070 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:45.070 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:46.714 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:40:48.674 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:54.138 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:54.138 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:40:54.139 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:40:54.145 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:40:55.139 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:40:55.142 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:40:55.148 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:40:57.733 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:41:00.057 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:41:00.060 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:41:00.063 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:41:07.882 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:41:09.521 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:41:17.289 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:41:17.289 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:41:17.290 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:41:17.293 [http-nio-8082-exec-4] ERROR o.e.b.controller.OrderController -- Faild with: 
+12:41:18.289 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:41:18.290 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:41:18.294 [http-nio-8082-exec-5] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:42:06.313 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:06.313 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:06.313 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:06.313 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:06.327 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:06.327 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:06.327 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:06.328 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:07.303 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:07.303 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:08.067 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:08.067 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:12.199 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:15.201 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:32.807 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:32.807 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:32.809 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:42:32.820 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:42:33.806 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:33.807 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:42:33.815 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:42:41.521 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:42:43.221 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:51.173 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:42:51.173 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:51.174 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:42:51.179 [http-nio-8082-exec-10] ERROR o.e.b.controller.OrderController -- Faild with: 
+12:42:52.176 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:42:52.178 [http-nio-8082-exec-6] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:42:52.183 [http-nio-8082-exec-6] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:45:29.736 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:45:29.736 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:45:29.736 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:45:29.736 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:45:29.793 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:45:29.793 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:45:29.794 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:45:29.796 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:45:31.046 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:45:31.046 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:45:31.050 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:45:31.050 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:22.799 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:46:22.799 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:22.799 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:22.799 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:23.730 [http-nio-8082-exec-6] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:46:23.731 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:29.415 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:46:33.333 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:40.298 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:40.298 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:40.301 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:46:40.321 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:46:41.299 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:41.313 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:46:41.323 [http-nio-8082-exec-4] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:46:47.434 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:47.435 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:46:47.435 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:46:47.435 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:48.437 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:46:48.437 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:46:59.981 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:47:02.129 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:47:15.484 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:47:15.484 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:47:15.486 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:47:15.490 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:47:16.484 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:47:16.487 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:47:16.494 [http-nio-8082-exec-8] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:47:30.729 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:47:30.730 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:47:30.729 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:47:30.731 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:47:31.733 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:47:31.733 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:48:12.409 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:12.409 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:12.409 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:48:12.409 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:13.405 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:13.405 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:48:15.310 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:48:17.512 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:21.934 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:21.934 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:48:21.941 [http-nio-8082-exec-4] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:48:22.937 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:22.937 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:22.939 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:48:22.944 [http-nio-8082-exec-2] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:48:27.260 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:48:28.380 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:36.449 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:48:36.451 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:48:36.457 [http-nio-8082-exec-2] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:48:37.447 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:37.447 [http-nio-8082-exec-1] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:48:37.448 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:48:37.451 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Order Details saved successfully
+12:50:00.375 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:50:20.356 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+12:51:05.890 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Inside customer post method
+12:51:05.907 [http-nio-8082-exec-7] INFO  o.e.b.controller.CustomerController -- Customer saved successfully
+12:51:14.207 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Inside customer put method
+12:51:14.216 [http-nio-8082-exec-1] INFO  o.e.b.controller.CustomerController -- Customer updated successfully
+12:51:21.226 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer Delete method
+12:51:21.230 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Customer deleted successfully
+12:51:41.988 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:51:52.181 [http-nio-8082-exec-8] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:51:55.810 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:51:59.301 [http-nio-8082-exec-10] INFO  o.e.b.controller.ItemController -- Inside item get method
+12:52:10.136 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Inside item post method
+12:52:10.158 [http-nio-8082-exec-3] INFO  o.e.b.controller.ItemController -- Item saved successfully
+12:52:23.267 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item put method
+12:52:23.278 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Item updated successfully
+12:52:28.813 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item delete method
+12:52:28.817 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Item deleted successfully
+12:52:44.607 [http-nio-8082-exec-9] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:52:47.825 [http-nio-8082-exec-6] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:52:51.258 [http-nio-8082-exec-5] INFO  o.e.b.controller.OrderController -- Inside order get method
+12:53:20.040 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order post method
+12:53:20.050 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Order saved successfully
+12:53:26.274 [http-nio-8082-exec-10] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+12:53:34.879 [http-nio-8082-exec-3] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+12:53:40.643 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
+13:07:59.051 [http-nio-8082-exec-9] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+13:08:10.381 [http-nio-8082-exec-5] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+13:08:13.165 [http-nio-8082-exec-2] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+13:08:16.546 [http-nio-8082-exec-4] INFO  o.e.b.controller.CustomerController -- Inside customer get method
+13:08:19.584 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Inside customer post method
+13:08:19.600 [http-nio-8082-exec-8] INFO  o.e.b.controller.CustomerController -- Customer saved successfully
+13:08:22.434 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Inside customer put method
+13:08:22.442 [http-nio-8082-exec-10] INFO  o.e.b.controller.CustomerController -- Customer updated successfully
+13:08:24.885 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Inside customer Delete method
+13:08:24.891 [http-nio-8082-exec-3] INFO  o.e.b.controller.CustomerController -- Customer deleted successfully
+13:08:39.956 [http-nio-8082-exec-7] INFO  o.e.b.controller.ItemController -- Inside item get method
+13:08:42.304 [http-nio-8082-exec-1] INFO  o.e.b.controller.ItemController -- Inside item get method
+13:08:44.511 [http-nio-8082-exec-6] INFO  o.e.b.controller.ItemController -- Inside item get method
+13:08:46.931 [http-nio-8082-exec-9] INFO  o.e.b.controller.ItemController -- Inside item get method
+13:08:49.749 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Inside item post method
+13:08:49.755 [http-nio-8082-exec-5] INFO  o.e.b.controller.ItemController -- Item saved successfully
+13:08:52.662 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Inside item put method
+13:08:52.664 [http-nio-8082-exec-2] INFO  o.e.b.controller.ItemController -- Item updated successfully
+13:08:55.478 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Inside item delete method
+13:08:55.481 [http-nio-8082-exec-4] INFO  o.e.b.controller.ItemController -- Item deleted successfully
+13:08:59.181 [http-nio-8082-exec-8] INFO  o.e.b.controller.OrderController -- Inside order get method
+13:09:01.695 [http-nio-8082-exec-10] INFO  o.e.b.controller.OrderController -- Inside order get method
+13:09:05.441 [http-nio-8082-exec-3] INFO  o.e.b.controller.OrderController -- Inside order get method
+13:09:18.023 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Inside order post method
+13:09:18.029 [http-nio-8082-exec-7] INFO  o.e.b.controller.OrderController -- Order saved successfully
+13:09:24.284 [http-nio-8082-exec-1] INFO  o.e.b.c.OrderDetailsController -- Inside order detail get method
+13:09:32.112 [http-nio-8082-exec-6] INFO  o.e.b.c.OrderDetailsController -- Inside order detail post method
