@@ -3,6 +3,9 @@
 <h3>API Documentation :</h3>
 https://documenter.getpostman.com/view/36188605/2sAXjJ4sBa
 
+<h3>JAVAEE POS System Frontend</h3>
+https://github.com/SameeraMS/Pos-System-FrontEnd.git
+
 <h3>Description</h3>
 
 This project is built using Jakarta EE for the backend, MySQL as the database, and AJAX (or Fetch API) for handling asynchronous communication between the client and server. The application leverages native SQL for database operations to ensure efficient query handling. Proper logging is implemented across the application, following best practices for logging levels to ensure maintainability and traceability.
@@ -34,7 +37,10 @@ Set up your MySQL database.
 Build the project using your preferred Jakarta EE tool (e.g., Maven).
 Deploy the application to your Jakarta EE application server (e.g., Tomcat).</li>
 <li>Access the Application:
-Once deployed, access the frontend application via your web browser.</li>
+Once deployed, access the frontend application via your web browser.
+<br>
+Frontend : <a>https://github.com/SameeraMS/Pos-System-FrontEnd.git</a>
+</li>
 </ul>
 
 <h3>Logging Configuration</h3>
